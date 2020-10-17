@@ -65,7 +65,7 @@
                       <img src="https://source.unsplash.com/500x400/? ' . $cat . ',coding" class="card-img-top" alt="...">
                       <div class="card-body">
                          <h5 class="card-title">' . $cat . '</h5>   
-                          <p class="card-text">' . $desc . '</p>
+                          <p class="card-text">' . substr($desc, 0, 50) . '...</p>
                           <a href="#" class="btn btn-primary">View Threads</a>
                      </div>
                  </div>
